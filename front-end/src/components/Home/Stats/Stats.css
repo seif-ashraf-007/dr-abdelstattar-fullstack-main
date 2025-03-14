@@ -1,0 +1,172 @@
+:root {
+    --prm-clr: #2d3665;
+    --scnd-clr: #136c9d;
+}
+
+.stats-section {
+    padding: 1.5rem 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: center;
+    color: #4B5563;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.sub-title {
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: var(--scnd-clr);
+    opacity: 40%;
+    text-align: center;
+}
+
+.description {
+    max-width: 36rem;
+    text-align: center;
+}
+
+.content {
+    max-width: 42rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.stats-container {
+    max-width: 800px;
+}
+
+.stats-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.stats-item {
+    text-align: center;
+}
+
+.stats-number {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--scnd-clr);
+}
+
+.stats-title {
+    margin-top: 0.75rem;
+    font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    .stats-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .main-title {
+        font-size: 3rem;
+    }
+
+    .sub-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .sub-title {
+        font-size: 1.4rem;
+    }
+
+    .description {
+        font-size: 0.8rem;
+        max-width: 80%;
+    }
+
+    .stats-number{
+        font-size: 1.8rem;
+    }
+
+    .stats-title {
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    .stats-number{
+        font-size: 1.5rem;
+    }
+
+    .stats-title {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .sub-title {
+        font-size: 1rem;
+    }
+
+    .description {
+        font-size: 0.75rem;
+        max-width: 90%;
+    }
+
+    .stats-number{
+        font-size: 1.4rem;
+    }
+
+    .stats-title {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .main-title {
+        font-size: 1.8rem;
+    }
+
+    .sub-title {
+        font-size: 0.9rem;
+    }
+
+    .description {
+        font-size: 0.65rem;
+    }
+}
+
+[dir="rtl"] .stats-section {
+    text-align: right;
+}
+
+[dir="rtl"] .stats-list {
+    direction: rtl;
+}

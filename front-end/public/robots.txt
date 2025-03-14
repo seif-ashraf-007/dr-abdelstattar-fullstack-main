@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /blog/new
+
+Sitemap: https://drabdelsattarnasr.com/sitemap.xml

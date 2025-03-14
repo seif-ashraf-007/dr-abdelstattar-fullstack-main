@@ -1,0 +1,95 @@
+{
+  "header": {
+    "home": "Home",
+    "certificates": "Certificates",
+    "testimonials": "Testimonials",
+    "locations": "Locations",
+    "blog": "Blog"
+  },
+  "hero": {
+    "banner": {
+      "title": "Dr. Abdelsattar Ahmed Nasr",
+      "sub_title": "Interventional Cardiovascular Specialist"
+    },
+    "cards": {
+      "card1": {
+        "title": "Title",
+        "description": "Description",
+        "button": "Button"
+      },
+      "card2": {
+        "title": "Title",
+        "description": "Description",
+        "button": "Button"
+      },
+      "card3": {
+        "title": "Title",
+        "description": "Description",
+        "button": "Button"
+      }
+    }
+  },
+
+  "about": {
+    "title": "About",
+    "sub_title": "Leading the Way in Heart Health",
+    "motto": "- We take care of you -",
+    "cards": {
+      "card1": {
+        "title": "Title",
+        "description": "Descritption"
+      },
+      "card2": {
+        "title": "Title",
+        "description": "Descritption"
+      },
+      "card3": {
+        "title": "Title",
+        "description": "Descritption"
+      }
+    }
+  },
+
+  "info_section": {
+    "mentors": {
+      "title": "My Dear Mentors",
+      "description": "My journey in the field of interventional cardiology has been shaped by the guidance and wisdom of extraordinary mentors. Each of them has played a pivotal role in honing my skills, deepening my understanding, and inspiring my commitment to advancing cardiovascular care."
+    },
+    "certificates": {
+      "title": "Certificates",
+      "description": "My professional journey is marked by a steadfast commitment to continuous learning and excellence in interventional cardiology. The certifications I have earned are not just milestones, but a testament to my dedication to staying at the forefront of medical advancements."
+    }
+  },
+
+  "stats": {
+    "title": "Stats",
+    "sub_title": "Dedicated to Advancing Cardiovascular Care",
+    "description": "As an Interventional Cardiovascular Specialist, we are committed to providing cutting-edge treatments and personalized care to improve heart health and save lives.",
+    "vales": {
+      "value1": {
+        "description": "Coronary Intervention"
+      },
+      "value2": {
+        "description": "Cardiac Device Implantation"
+      },
+      "value3": {
+        "description": "Heart Failure Patient Management"
+      }
+    }
+  },
+
+  "testimonials": {
+    "title": "Hear from our Patients",
+    "description": "Discover how our specialized cardiovascular treatments have made a difference in the lives of our patients."
+  },
+
+  "footer": {
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa cum itaque neque.",
+    "buttons": {
+      "about": "About",
+      "certificates": "Certificates",
+      "book": "Book",
+      "locations": "Locations"
+    }
+  }
+} 
